@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h3>UPDATE SUCCESS</h3>
+</br>
+
+<table>
+    <tr>
+        <th> FullName:</th>
+        <td><%= info.fullName %></td>
+    </tr>
+    <tr>
+        <th>StudentCode:</th>
+        <td> <%= info.studentCode%> </td>
+    </tr>
+    <tr>
+        <th>HeoreticalScore:</th>
+        <td>  <%= info.heoreticalScore %> </td>
+    </tr>
+
+    <tr>
+        <th>ExecutionScore:</th>
+        <td> <%= info.executionScore%> </td>
+    </tr>
+    <tr>
+        <th>Describe:</th>
+        <td> <%= info.describe%> </td>
+    </tr>
+    <tr>
+        <th>Evaluate:</th>
+        <td> <%= info.evaluate %> </td>
+    </tr>
+    <tr>
+        <th>Class:</th>
+        <td> <%= info.class %> </td>
+    </tr>
+
+
+</table>
+
+
+<a href="/infos/list"><button type="submit" class="btn btn-primary"> Back</button></a>
+
+</body>
+</html>
